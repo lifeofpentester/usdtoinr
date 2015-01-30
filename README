@@ -7,7 +7,7 @@
                     --by Pranshu Bajpai
 		    --Email:bajpai[dot]pranshu[at]gmail[at]com
 
-A Small Python web scrapping script that can be used to USD To INR conversions according to the current exchange rate. It also have features to convert USD to INR and then show the amount left in Rupees after deduction of PayPal fees.
+A Small Python web scrapping script that can be used to USD To INR conversions according to the current exchange rate. It also has features to convert USD to INR and then show the amount left in Rupees after deduction of PayPal fees.
 
 
 usage: usdtoinr.py [-h] [-x] [-a] [-c CONVERT] [-p PAYPAL]
