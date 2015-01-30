@@ -1,0 +1,32 @@
+               _ _        _           
+ _   _ ___  __| | |_ ___ (_)_ __  _ __ 
+| | | / __|/ _` | __/ _ \| | '_ \| '__|
+| |_| \__ \ (_| | || (_) | | | | | |   
+ \__,_|___/\__,_|\__\___/|_|_| |_|_|   
+
+                    --by Pranshu Bajpai
+		    --Email:bajpai[dot]pranshu[at]gmail[at]com
+
+A Small Python web scrapping script that can be used to USD To INR conversions according to the current exchange rate. It also have features to convert USD to INR and then show the amount left in Rupees after deduction of PayPal fees.
+
+
+usage: usdtoinr.py [-h] [-x] [-a] [-c CONVERT] [-p PAYPAL]
+
+Script for USD to INR calculations
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -x, --xoom            exchange rate from xoom.com
+  -a, --all             exchange rate from all major remit websites
+  -c CONVERT, --convert CONVERT
+                        USD to INR conversion using current exchange rate
+  -p PAYPAL, --paypal PAYPAL
+                        amount after deducting PayPal's 4 percent fees
+
+Example: python usdtoinr.py -p 1000
+
+
+
+
+
+
